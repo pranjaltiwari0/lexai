@@ -6,9 +6,9 @@ transformers==4.30.2
 huggingface_hub==0.14.1
 torch==2.0.1
 pinecone-client==3.0.0
-fastapi==0.104.1
+fastapi>=0.104.1
 uvicorn==0.24.0
 python-dotenv==1.0.0
 cryptography>=3.1
-together>=0.2.8  # Or latest known working version
-pydantic==1.10.7
+together>=0.2.9  # Or latest known working version
+pydantic>=2.5.3,<3.0.0
